@@ -1,0 +1,21 @@
+{
+  "name": "@enrian/vue-pikaday-docs",
+  "version": "1.0.0",
+  "description": "Docs for VuePikaday component",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "author": "Michal Szajter <michal@szajter.cz>",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it-attrs": "^2.2.0",
+    "markdown-it-include": "^1.0.0",
+    "vuepress": "^0.10.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2"
+  }
+}
