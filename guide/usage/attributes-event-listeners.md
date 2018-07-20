@@ -7,7 +7,9 @@ All attributes and/or event listeners you are used to use will work.
 Open browser console to see event listeners working.
 :::
 
-<attributes-event-listeners />
+<ClientOnly>
+  <attributes-event-listeners />
+</ClientOnly>
 
 ```vue
 <template>

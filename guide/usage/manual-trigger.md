@@ -2,7 +2,9 @@
 
 To delegate datepicker opening to other element than underlying input, use two-way `v-p-visible` directive.
 
-<manual-trigger />
+<ClientOnly>
+  <manual-trigger />
+</ClientOnly>
 
 ```vue
 <template>

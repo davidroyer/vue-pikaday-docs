@@ -2,3 +2,4 @@
 node_modules
 .envrc
 *.log
+.vuepress/dist

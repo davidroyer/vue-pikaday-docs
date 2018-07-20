@@ -10,7 +10,9 @@ To see all possible options, consult official Pikaday [documentation](https://gi
 use two-way `v-p-visible` directive instead
 :::
 
-<pikaday-options />
+<ClientOnly>
+  <pikaday-options />
+</ClientOnly>
 
 ```vue
 <template>

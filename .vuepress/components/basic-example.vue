@@ -10,7 +10,6 @@
 
 <script>
   import './base';
-  import moment from 'moment';
 
   export default {
     name: "basic-example",

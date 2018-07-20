@@ -2,7 +2,9 @@
 
 Simply include `vue-pikaday` component with `v-model` defined.
 
-<basic-example />
+<ClientOnly>
+  <basic-example />
+</ClientOnly>
 
 ```vue
 <template>
