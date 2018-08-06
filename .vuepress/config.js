@@ -42,7 +42,8 @@ module.exports = {
           title: 'Config Reference',
           collapsable: false,
           children: [
-            ['#props', 'Props']
+            ['#props', 'Props'],
+            ['#directives', 'Directives']
           ]
         }
       ]
