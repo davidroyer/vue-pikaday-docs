@@ -22,10 +22,19 @@ yarn add @enrian/vue-pikaday
 
 ## Standalone
 
-1. Download latest [release](https://github.com/enrian/vue-pikaday/releases) of VuePikaday.
+1. Download latest [release](https://github.com/enrian/vue-pikaday/releases) of VuePikaday or use latest [jsDelivr](https://www.jsdelivr.com/package/npm/@enrian/vue-pikaday) links
 2. Add to your HTML head section (after Vue) using script tag
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="/project/path/vue-pikaday.js">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2/moment.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pikaday@1/pikaday.js"></script>
+
+<script src="/project/path/dist/vue-pikaday.js"></script> 
+or 
+<script src="https://cdn.jsdelivr.net/npm/@enrian/vue-pikaday@1/dist/vue-pikaday.js"></script>
 ```
+
+::: warning 
+**DO NOT** use jsDelivr's "combine" method (even its tempting) as it uglifies code and [Pikaday](https://github.com/dbushell/Pikaday) relies on "moment" variable in scope in order to use it.
+:::
