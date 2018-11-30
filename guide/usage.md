@@ -7,4 +7,3 @@
 !!!include(guide/usage/attributes-event-listeners.md)!!!
 !!!include(guide/usage/pikaday-options.md)!!!
 !!!include(guide/usage/manual-trigger.md)!!!
-

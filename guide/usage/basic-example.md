@@ -8,9 +8,10 @@ Simply include `vue-pikaday` component with `v-model` defined.
 
 ```vue
 <template>
-  <vue-pikaday 
-    v-model="now" 
+  <vue-pikaday
+    v-model="now"
   />
+  <button @click="clear()">Clear</button>
 </template>
 
 <script>
@@ -20,6 +21,11 @@ Simply include `vue-pikaday` component with `v-model` defined.
     data() {
       return {
         now: null
+      }
+    },
+    methods: {
+      clear() {
+        this.now = null;
       }
     }
   }

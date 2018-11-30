@@ -4,6 +4,7 @@
       v-model="now"
       @input-value="updateInputValue"
     />
+    <button @click="clear()">Clear</button>
     <pre><code v-html="values"></code></pre>
   </div>
 </template>
@@ -30,6 +31,9 @@
     methods: {
       updateInputValue(value) {
         this.inputValue = value;
+      },
+      clear() {
+        this.now = null;
       }
     }
   }
