@@ -642,9 +642,10 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@enrian/vue-pikaday@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enrian/vue-pikaday/-/vue-pikaday-1.0.0.tgz#4556431b931e0d5d732cd807a3567d7b2d49dd6e"
+"@enrian/vue-pikaday@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enrian/vue-pikaday/-/vue-pikaday-1.0.3.tgz#f7ba00cd7e9c4f263fb729f63819146e713867ed"
+  integrity sha512-Isqu2/C4t5ziHx0VgcRsmfvD14YqGHl3SZzEbeDryyXO0CbFtasSk5xJJGEKNMDpzS3lGCqXSMrdJAWSedt5Mw==
   dependencies:
     lodash "^4.17.10"
 

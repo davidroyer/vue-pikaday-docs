@@ -15,7 +15,7 @@
     "vuepress": "^0.10.1"
   },
   "dependencies": {
-    "@enrian/vue-pikaday": "^1.0.0",
+    "@enrian/vue-pikaday": "^1.0.3",
     "lodash": "^4.17.10",
     "markdown-it": "^8.4.1",
     "moment": "^2.22.2",
