@@ -47,6 +47,8 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
+    lastUpdated: 'Last Updated',
+    displayAllHeaders: true
   }
 };
