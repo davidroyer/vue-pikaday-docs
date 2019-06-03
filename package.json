@@ -1,18 +1,12 @@
 {
   "name": "@enrian/vue-pikaday-docs",
-  "version": "1.0.0",
+  "author": "Michal Szajter <michal@szajter.cz>",
+  "license": "MIT",
   "description": "Docs for VuePikaday component",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
-  },
-  "author": "Michal Szajter <michal@szajter.cz>",
-  "license": "MIT",
-  "devDependencies": {
-    "markdown-it-attrs": "^2.4.1",
-    "markdown-it-include": "^1.1.0",
-    "vuepress": "^0.14.11"
   },
   "dependencies": {
     "@enrian/vue-pikaday": "^1.0.3",
@@ -20,8 +14,13 @@
     "markdown-it": "^8.4.2",
     "moment": "^2.24.0",
     "pikaday": "^1.8.0",
-    "vue": "^2.6.10",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "markdown-it-attrs": "^2.4.1",
+    "markdown-it-include": "^1.1.0",
+    "vue-server-renderer": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
-    "vue-server-renderer": "^2.6.10"
+    "vuepress": "^0.14.11"
   }
 }
